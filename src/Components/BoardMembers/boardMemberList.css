@@ -1,0 +1,31 @@
+.member-lists{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+.member-yearlist{
+    display: flex;
+    flex-direction: row;
+    /* gap: 30px; */
+    justify-content:space-around;
+    align-items: center;
+}
+@media screen and (max-width: 679px ) {
+    .member-lists{
+        justify-content: space-between;
+        gap: 8vw;
+    }  
+    .member-yearlist{
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 8vw;
+    }  
+}
+.board-year{
+    text-align: center;
+    font-family: "xspace";
+    color: white;
+}
+

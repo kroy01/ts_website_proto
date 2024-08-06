@@ -1,0 +1,53 @@
+.contactbox-background{
+    border: 2px solid #008080;
+    border-radius: 10px;
+    background: linear-gradient(#008080, #00808090);
+}
+
+.contactbox-box{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.contactbox-heading{
+    text-align: center;
+    font-family: "xspace";
+    font-size: 3.8vw;
+    margin: 0;
+    color: white;
+}
+
+.contactbox-link:hover{
+    transform: scale(1.1);
+    color: aliceblue;
+}
+
+.contactbox-link{
+    transition: transform 0.3s ease-in-out;
+    border-radius: 25px;
+    border: 3px solid #008080;
+    color: aliceblue;
+    font-size: 2vw;
+    font-family: 'Genos';
+    padding: 1vw;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 975px){
+    .contactbox-box{
+        width: 90%;
+        padding-bottom: 30px;
+    }
+    .contactbox-heading{
+        font-size: 5vw;
+    }
+    .contactbox-link{
+        font-size: 3.2vw;
+        font-family: 'Genos';
+    }
+}

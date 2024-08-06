@@ -1,0 +1,41 @@
+.project-box{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 20px;
+    aspect-ratio: 1/1;
+    width: 35%;
+    height: auto;
+    
+}
+.project-background{
+    border: 2px solid #008080;
+    border-radius: 10px;
+    background: linear-gradient(#00808060, #00808010);
+    
+}
+.projectBox-heading{
+    text-align: center;
+    font-family: "xspace";
+    font-size: 3.5vw;
+    margin: 0;
+}
+
+@media screen and (min-width: 1200px ) {
+    .projectBox-heading{
+        font-size: 40px;
+    } 
+}
+
+@media screen and (max-width: 675px ) {
+    .projectBox-heading{
+        font-size: 7vw;
+    } 
+    .project-box{
+
+        width: 70%;
+        height: auto;
+        
+    }
+}

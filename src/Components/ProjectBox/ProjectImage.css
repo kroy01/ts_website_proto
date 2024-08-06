@@ -1,0 +1,26 @@
+.project-box-image-property{
+    object-fit: fill;
+    width: 80%;
+    height: auto;
+    aspect-ratio: 9/16;
+    transition: transform 0.3s ease-in-out; 
+    
+}
+
+.project-box-image-property:hover{
+    transform: scale(1.1);
+}
+
+.project-box-image-type{
+    border: 2px solid #008080;
+    border-radius: 7px;
+}
+
+.projectImage-boundary{
+    padding-bottom: 25px;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,35 @@
+.PicBox {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: min-content;
+}
+
+.PicHeading {
+    background-image: linear-gradient(rgb(87, 121, 132, 0.79), rgb(87, 121, 132, 0));
+    border: #056060 solid 0.1875rem;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    font-size: 1.25vw;
+    width: 16vmax;
+    /* height: auto; */
+    height: 5.25vmax;
+}
+
+.HeadRoundTop {
+    border-radius: 20px 20px 0 0;
+}
+
+.HeadRoundBottom {
+    border-radius: 0 0 20px 20px;
+}
+
+.PicImage {
+    object-fit: cover;
+    border: #056060 solid 0.1875rem;
+    border-top: 0;
+    border-bottom: 0;
+    box-sizing: border-box;
+    width: 16vmax;
+    height: 20vmax;
+}

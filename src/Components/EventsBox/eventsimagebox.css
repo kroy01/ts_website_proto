@@ -1,0 +1,73 @@
+.eventsimagebox-image{
+    object-fit: contain;
+    height: auto;
+    width: 100%;
+}
+
+.eventsimagebox-box:hover{
+    transform: scale(1.15);
+}
+
+.eventsimagebox-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:auto;
+    margin: 0 auto;
+    aspect-ratio: 4/3;
+    max-width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+.eventsimagebox-image{
+    border-width: 4px 4px 2px 4px;
+    border-style: solid;
+    border-color: #008080;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    width: 100%;
+}
+.eventimagebox-name{
+    border-width: 2px 4px 4px 4px;
+    border-style: solid;
+    border-color: #008080;
+    border-radius: 0px 0px 20px 20px;
+    object-fit: cover;
+    width: 100%;
+    height: 5.5vw;
+    text-align: center;
+}
+.eventsimage-name{
+    font-size: 2vw;
+    margin-top: 1vw;
+}
+.eventsimage-name{
+    text-align: center;
+    font-family: 'Genos';
+    color: white;
+}
+.eventsimagebox-margin{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    align-content: center;
+}
+@media screen and (max-width: 679px ){
+    .eventsimage-name{
+        font-size: 4vw;
+    }
+    .eventimagebox-name{
+        height: 9vw;
+    }
+}
+
+@media screen and (min-width: 1201px ){
+    .eventsimage-name{
+        font-size: 1.9vw;
+    }
+    .eventimagebox-name{
+        height: 6vw;
+    }
+}
